@@ -1,0 +1,20 @@
+{
+  "metadata": {
+    "legal_authority": "Dubai Decree No. 43 of 2013 & Law No. 33 of 2008",
+    "mandatory_notice_days": 90,
+    "currency": "AED"
+  },
+  "decree_43_slabs": [
+    { "max_discount_pct": 10.0,  "allowed_increase_pct": 0.0,  "description": "Up to 10% below index: 0% increase permitted." },
+    { "max_discount_pct": 20.0,  "allowed_increase_pct": 5.0,  "description": "11%-20% below index: max 5% increase." },
+    { "max_discount_pct": 30.0,  "allowed_increase_pct": 10.0, "description": "21%-30% below index: max 10% increase." },
+    { "max_discount_pct": 40.0,  "allowed_increase_pct": 15.0, "description": "31%-40% below index: max 15% increase." },
+    { "max_discount_pct": 100.0, "allowed_increase_pct": 20.0, "description": ">40% below index: max 20% increase." }
+  ],
+  "commercial_district_benchmarks_aed_per_sqft": {
+    "Business Bay":        { "avg_rate_aed": 165.0, "min_rate_aed": 145.0, "max_rate_aed": 185.0 },
+    "DIFC":                { "avg_rate_aed": 310.0, "min_rate_aed": 275.0, "max_rate_aed": 350.0 },
+    "Dubai Internet City": { "avg_rate_aed": 195.0, "min_rate_aed": 175.0, "max_rate_aed": 220.0 },
+    "JLT":                 { "avg_rate_aed": 135.0, "min_rate_aed": 115.0, "max_rate_aed": 155.0 }
+  }
+}

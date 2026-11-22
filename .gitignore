@@ -1,0 +1,61 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Test & coverage
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+
+# Environment & secrets
+.env
+.env.*
+!.env.example
+
+# SQLite checkpoints (runtime state, regenerate on each demo)
+checkpoints.sqlite
+checkpoints.sqlite-journal
+*.sqlite
+*.sqlite3
+
+# Generated artifacts
+demo_compliance_packet.pdf
+gate_b_report*.pdf
+thread_id.txt
+test_report.pdf
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs
+*.log
+logs/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# PyMuPDF cache (if any)
+mupdf_cache/

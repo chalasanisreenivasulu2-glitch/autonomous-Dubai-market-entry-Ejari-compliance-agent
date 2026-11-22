@@ -1,0 +1,49 @@
+{
+  "metadata": {
+    "version": "2026.4",
+    "currency": "AED",
+    "source": "Dubai Mainland (DET) & Free Zone Published Fee Schedules"
+  },
+  "jurisdictions": [
+    {
+      "jurisdiction_code": "DET_MAINLAND",
+      "name": "Dubai Mainland (DET)",
+      "activity_code": "6201-04 (Software & AI Development)",
+      "base_license_aed": 14500,
+      "per_visa_aed": 4200,
+      "requires_ejari": true,
+      "supports_physical_office": true,
+      "notes": "Allows direct trading across UAE mainland and government tenders; physical office with DLD Ejari registration required."
+    },
+    {
+      "jurisdiction_code": "IFZA",
+      "name": "International Free Zone Authority (IFZA)",
+      "activity_code": "6201-FZ (IT Consultancy & AI)",
+      "base_license_aed": 12900,
+      "per_visa_aed": 3800,
+      "requires_ejari": false,
+      "supports_physical_office": false,
+      "notes": "Fast remote setup; flexi-desk included up to 3 visas without external DLD Ejari filing."
+    },
+    {
+      "jurisdiction_code": "DMCC",
+      "name": "Dubai Multi Commodities Centre (DMCC)",
+      "activity_code": "7220-11 (AI & Enterprise Software)",
+      "base_license_aed": 20500,
+      "per_visa_aed": 4500,
+      "requires_ejari": false,
+      "supports_physical_office": true,
+      "notes": "High international enterprise credibility in JLT; uses DMCC internal property registry rather than mainland Ejari. Certain visa categories may still require Ejari."
+    },
+    {
+      "jurisdiction_code": "DIFC",
+      "name": "Dubai International Financial Centre (DIFC)",
+      "activity_code": "6209-DIFC (FinTech & AI Innovation License)",
+      "base_license_aed": 26000,
+      "per_visa_aed": 4800,
+      "requires_ejari": false,
+      "supports_physical_office": true,
+      "notes": "Independent English common-law jurisdiction; ideal for regulated FinTech and institutional AI ventures."
+    }
+  ]
+}

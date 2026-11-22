@@ -1,0 +1,15 @@
+langgraph>=0.2.50
+langgraph-checkpoint-sqlite>=2.0.0
+langchain>=0.3.10
+langchain-core>=0.3.20
+langchain-google-genai>=2.0.5
+pydantic>=2.9.0
+fastapi>=0.115.0
+uvicorn[standard]>=0.32.0
+pymupdf>=2.0.0,<3.0.0
+python-dotenv>=1.0.1
+pytest>=8.3.0
+tenacity>=8.2.0
+streamlit>=1.40.0
+requests>=2.32.0
+python-multipart>=0.0.12
